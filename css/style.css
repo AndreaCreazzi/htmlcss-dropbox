@@ -317,3 +317,20 @@ body{
 
 /* ! footer */
 
+.banner-bar{
+    height: 500px;
+    background-color: black;
+}
+
+.banner-row{
+    justify-content: space-around;
+    gap: 5px;
+}
+
+.banner-row .banner-list{
+    flex-basis: 25%;
+    height: 350px;
+    border: 2px dashed white;
+    background-color: coral;
+    margin-top: 40px;
+}
