@@ -1,34 +1,53 @@
-/*reset*/
+/* reset */
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/*generics*/
+/* generics */
+
 body{
     font-family: 'Open Sans', sans-serif;
 }
 
-/*utility*/
-/* !header */
-.navbar{
-    height: 70px;
-    background-color: white;
+/* utility */
+
+.large-container{
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
-.nav-row{
+.small-container{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.flex{
     display: flex;
 }
 
-.nav-row .nav-left{
+/* ! header */
+
+.navbar{
+    height: 70px;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.flex .nav-left{
     flex-basis: 50%;
     border: 2px dashed black;
     height: 70px;
     background-color: yellow;
 }
 
-.nav-row .nav-right{
+.flex .nav-right{
     flex-basis: 50%;
     border: 2px dashed black;
     height: 70px;
@@ -40,8 +59,9 @@ body{
     background-color: #b4d0e7;
 }
 
+/* ? trial above */
+
 .trial-row-above{
-    display: flex;
     justify-content: center;
 }
 
@@ -53,15 +73,16 @@ body{
     margin-top: 10px;
 }
 
+/* ? trial below */
+
 .trial-row-below{
-    display: flex;
     justify-content: center;
     gap: 5px;
     margin-top: 10px;
 }
 
 .trial-row-below .trial-left{
-    flex-basis: 30%;
+    flex-basis: 25%;
     border: 2px dashed black;
     height: 330px;
     background-color: aquamarine;
@@ -74,7 +95,225 @@ body{
     background-color: red;
 }
 
-/* !main */
+/* ! main */
 
+.business-plans{
+    height: 1300px;
+}
 
-/* !footer */
+/* ? business above */
+
+.business-row-above{
+    justify-content: flex-start;
+}
+
+.business-row-above .business-center{
+    flex-basis: 70%;
+    border: 2px dashed black;
+    height: 300px;
+    background-color: bisque;
+    margin-top: 30px;
+}
+
+/* ? business below */
+
+.business-row-below{
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.business-row-below .business-left{
+    flex-basis: 30%;
+    border: 2px dashed black;
+    height: 900px;
+    background-color: violet;
+}
+
+.business-row-below .business-middle{
+    flex-basis: 30%;
+    border: 2px dashed black;
+    height: 900px;
+    background-color: greenyellow;
+}
+
+.business-row-below .business-right{
+    flex-basis: 30%;
+    border: 2px dashed black;
+    height: 900px;
+    background-color: lightskyblue;
+}
+
+/* ? enterprise */
+
+.enterprise-contact{
+    height: 400px;
+}
+
+.enterprise-row{
+    justify-content: center;
+}
+
+.enterprise-row .enterprise-center{
+    flex-basis: 100%;
+    border: 2px dashed white;
+    height: 250px;
+    background-color: firebrick;
+    margin-top: 40px;
+}
+
+/* ? partners find */
+
+.partners-find{
+    height: 500px;
+}
+
+.partners-row{
+    justify-content: center;
+}
+
+.partners-row .find-left{
+    flex-basis: 70%;
+    border: 2px dashed white;
+    height: 400px;
+    background-color: darkmagenta;
+    margin-top: 10px;
+}
+
+.partners-row .find-right{
+    flex-basis: 30%;
+    border: 2px dashed white;
+    height: 400px;
+    background-color: sienna;
+    margin-top: 10px;
+}
+
+/* ? drop operation */
+
+.drop-operation{
+    height: 800px;
+}
+
+.operation-row{
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.operation-row .operation-tool{
+    flex-basis: calc(100% / 3);
+    height: 350px;
+    border: 2px dashed black;
+    margin-top: 20px;
+    background-color: gold;
+}
+
+/* ? info drop */
+
+.info-drop{
+    height: 400px;
+}
+
+.info-row{
+    justify-content: flex-start;
+}
+
+.info-row .info-center{
+    flex-basis: 100%;
+    height: 200px;
+    border: 2px dashed black;
+    background-color: navy;
+    margin-top: 60px;
+}
+
+/* ? partners logo */
+
+.partner-selection{
+    height: 400px;
+    background-color: rebeccapurple;
+}
+
+/* ? logos container */
+
+.logo-row{
+    justify-content: flex-start;
+}
+
+/* ? logos left */
+
+.logo-row .logo-left-container{
+    flex-basis: 30%;
+    height: 400px;
+    border: 2px dashed black;
+    flex-wrap: wrap;
+}
+
+.logo-left-container .logo-img{
+    flex-basis: 50%;
+    height: 200px;
+    border: 2px dashed white;
+    background-color: aqua;
+}
+
+/* ? logos middle */
+
+.logo-row .logo-middle-container{
+    flex-basis: 40%;
+    height: 400px;
+    border: 2px dashed black;
+    background-color: red;
+}
+
+/* ? logos right */
+
+.logo-row .logo-right-container{
+    flex-basis: 30%;
+    height: 400px;
+    border: 2px dashed black;
+    flex-wrap: wrap;
+}
+
+.logo-right-container .logo-img{
+    flex-basis: 50%;
+    height: 200px;
+    border: 2px dashed white;
+    background-color: aqua;
+}
+
+/* ? download drop */
+
+.download-drop{
+    height: 400px;
+    background-color: #b4d0e7;
+}
+
+.download-row{
+    justify-content: center;
+}
+
+.download-row .drop-try{
+    flex-basis: 75%;
+    height: 300px;
+    border: 2px dashed black;
+    background-color: blueviolet;
+    margin-top: 40px;
+}
+
+/* ? FAQ */
+
+.faq-container{
+    height: 600px;
+}
+
+.faq-row{
+    justify-content: center;
+}
+
+.faq-row .question{
+    flex-basis: 100%;
+    height: 400px;
+    border: 2px dashed white;
+    background-color: black;
+    margin-top: 70px;
+}
+
+/* ! footer */
+
