@@ -355,7 +355,7 @@ body{
 /* ? partners find */
 
 .partners-find{
-    height: 500px;
+    height: 700px;
 }
 
 .partners-row{
@@ -364,18 +364,45 @@ body{
 
 .partners-row .find-left{
     flex-basis: 70%;
-    border: 2px dashed white;
-    height: 400px;
-    background-color: darkmagenta;
+    height: 540px;
     margin-top: 10px;
 }
 
 .partners-row .find-right{
-    flex-basis: 30%;
-    border: 2px dashed white;
-    height: 400px;
-    background-color: sienna;
+    flex-basis: 40%;
+    height: 540px;
     margin-top: 10px;
+}
+
+.find-left img{
+    max-width: 100%; 
+}
+
+.find-right h2{
+    margin-left: 30px;
+    margin-top: 40px;
+}
+
+.find-right p{
+    margin-left: 30px;
+    margin-top: 20px;
+    padding-right: 20px;
+}
+
+.find-right a{
+    padding: 9px 15px;
+    margin-top: 30px;
+    margin-left: 30px;
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.partners-find h1{
+    margin-top: 60px;
+    font-size: 35px;
 }
 
 /* ? drop operation */
@@ -391,10 +418,23 @@ body{
 
 .operation-row .operation-tool{
     flex-basis: calc(100% / 3);
-    height: 350px;
-    border: 2px dashed black;
+    height: 400px;
     margin-top: 20px;
-    background-color: gold;
+    gap: 5px;
+}
+
+.operation-tool img{
+    max-width: 80%;
+    margin-left: 25px;
+}
+
+.operation-tool h3{
+    padding-right: 40px;
+}
+
+.operation-tool p{
+    margin-top: 20px;
+    padding-right: 30px;
 }
 
 /* ? info drop */
@@ -410,9 +450,19 @@ body{
 .info-row .info-center{
     flex-basis: 100%;
     height: 200px;
-    border: 2px dashed black;
-    background-color: navy;
     margin-top: 60px;
+}
+
+.info-center h1{
+    margin-top: 70px;
+    font-size: 30px;
+    padding-right: 350px;
+    margin-bottom: 40px;
+}
+
+.info-center a{
+    color: #0b6aff;
+     
 }
 
 /* ? partners logo */
