@@ -626,9 +626,32 @@ body{
 .download-row .drop-try{
     flex-basis: 75%;
     height: 300px;
-    border: 2px dashed black;
-    background-color: blueviolet;
     margin-top: 40px;
+}
+
+.drop-try .drop-text{
+    flex-basis: 50%;
+}
+
+.drop-text h1{
+    margin-top: 118px;
+    font-size: 35px;
+    color: #61082b;
+}
+
+.drop-try .drop-link{
+    flex-basis: 50%;
+    justify-content: end;
+    padding: 132px 38px;
+}
+
+.drop-link a{
+    padding: 9px 50px;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    font-size: small;
+    text-align: center;
 }
 
 /* ? FAQ */
