@@ -203,6 +203,38 @@ body{
     margin-top: 30px;    
 }
 
+.enterprise-center .fa-building{
+    margin-top: 15px;
+    margin-left: 405px;
+}
+
+.enterprise-center h2{
+    display: inline-block;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.enterprise-center h4{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.enterprise-center a{
+    margin-left: 475px;
+    padding: 9px 50px;
+    text-decoration: none;
+    color: white;
+    background-color: #0061ff;
+    font-size: small;
+    text-align: center;
+}
+
+.enterprise-center p{
+    margin-top: 30px;
+    padding-right: 335px;
+    margin-left: 30px;
+    color: gray;
+}
 
 /* ! header */
 
@@ -315,9 +347,8 @@ body{
 
 .enterprise-row .enterprise-center{
     flex-basis: 100%;
-    border: 2px dashed white;
+    border: 1px solid lightgray;
     height: 250px;
-    background-color: firebrick;
     margin-top: 40px;
 }
 
