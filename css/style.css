@@ -98,6 +98,112 @@ body{
     font-size: 40px;
 }
 
+.business-center h2{
+    padding-top: 140px;
+    font-size: 35px;
+}
+
+.circle-container{
+    margin-top: 60px;
+}
+
+.circle-selection{
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: 5px solid blue;
+    vertical-align: middle;
+}
+
+.circle{
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: 1px solid black;
+    vertical-align: middle;
+    margin-left: 40px;
+}
+
+.circle-container span{
+    vertical-align: middle;
+}
+
+.business-title{
+    margin-top: 10px;
+    margin-left: 95px;
+}
+
+.separator{
+    height: 1px;
+    border: 1px solid lightgrey;
+    margin-top: 10px;
+}
+
+.business-container{
+    padding: 0 25px;
+}
+
+.business-container h3{
+    margin-top: 25px;
+}
+
+.business-container h5{
+    margin-top: 15px;
+}
+
+.month{
+    color: gray;
+    margin-top: 10px;
+}
+
+.business-content .fa-user{
+    margin-top: 30px;
+}
+
+.business-content .fa-folder{
+    margin-top: 30px;
+}
+
+.business-content .fa-share-nodes{
+    margin-top: 30px;
+}
+
+.business-content .plan-text{
+    font-size: 14px;
+    margin-top: 30px;
+    margin-left: 5px;
+}
+
+.business-content .try-link{
+    padding: 9px 15px;
+    text-decoration: none;
+    color: white;
+    background-color: #0061ff;
+    margin-top: 40px;
+    display: block;
+    font-size: small;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.business-content a{
+    color: #0061ff;
+}
+
+.business-content .separator{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: 175px;
+}
+
+.business-content .fa-check{
+    color: #0b6aff;
+    margin-top: 30px;    
+}
+
+
 /* ! header */
 
 .navbar{
@@ -168,7 +274,6 @@ body{
 
 .business-row-above .business-center{
     flex-basis: 70%;
-    border: 2px dashed black;
     height: 300px;
     margin-top: 30px;
 }
@@ -182,23 +287,20 @@ body{
 
 .business-row-below .business-left{
     flex-basis: 30%;
-    border: 2px dashed black;
+    border: 1px solid lightgray;
     height: 900px;
-    background-color: violet;
 }
 
 .business-row-below .business-middle{
     flex-basis: 30%;
-    border: 2px dashed black;
+    border: 1px solid lightgray;
     height: 900px;
-    background-color: greenyellow;
 }
 
 .business-row-below .business-right{
     flex-basis: 30%;
-    border: 2px dashed black;
+    border: 1px solid lightgray;
     height: 900px;
-    background-color: lightskyblue;
 }
 
 /* ? enterprise */
