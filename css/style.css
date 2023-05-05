@@ -472,13 +472,9 @@ body{
     height: 400px;
 }
 
-/* ? logos container */
-
 .logo-row{
     justify-content: flex-start;
 }
-
-/* ? logos */
 
 .logo-row .logo-left-container{
     flex-basis: 50%;
@@ -743,4 +739,9 @@ body{
 .banner-list span{
     color: #8e9799;
     margin-right: 5px;
+}
+
+.banner-list p:hover{
+    color: blue;
+    cursor: pointer;
 }
