@@ -430,10 +430,11 @@ body{
 
 .operation-tool img{
     max-width: 80%;
-    margin-left: 25px;
+    margin-left: 10px;
 }
 
 .operation-tool h3{
+    font-size: 24px;
     padding-right: 40px;
 }
 
