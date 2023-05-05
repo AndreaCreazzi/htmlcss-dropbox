@@ -595,6 +595,11 @@ body{
     height: 200px;
 }
 
+.logo-img:hover{
+    border: 5px solid black;
+    cursor: pointer;
+}
+
 /* ? download drop */
 
 .download-drop{
