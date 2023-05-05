@@ -686,7 +686,38 @@ body{
 .banner-row .banner-list{
     flex-basis: 25%;
     height: 350px;
-    border: 2px dashed white;
-    background-color: coral;
     margin-top: 40px;
+    padding: 30px 30px;
+}
+
+.banner-bar ul{
+    margin-bottom: 100px;
+}
+
+.banner-list h2{
+    color: white;
+    margin-bottom: 20px;
+}
+
+.banner-list p{
+    color: white;
+    line-height: 2;
+}
+
+.banner-bar .separator{
+    color: #8e9799;
+    margin-right: 50px;
+    margin-bottom: 60px;
+}
+
+.banner-bar .fa-earth-americas,
+.fa-caret-up
+{
+    color: #8e9799;
+    margin-right: 5px;
+}
+
+.banner-list span{
+    color: #8e9799;
+    margin-right: 5px;
 }
