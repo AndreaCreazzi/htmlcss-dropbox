@@ -38,6 +38,7 @@ body{
     top: 0;
     left: 0;
     z-index: 1;
+    border: 1px solid black;
 }
 
 .logo-drop{
@@ -223,6 +224,7 @@ body{
 
 .circle-container span{
     vertical-align: middle;
+    color: black;
 }
 
 .business-title{
@@ -731,13 +733,9 @@ body{
 }
 
 .banner-bar .fa-earth-americas,
-.fa-caret-up
+.fa-caret-up,
+span
 {
-    color: #8e9799;
-    margin-right: 5px;
-}
-
-.banner-list span{
     color: #8e9799;
     margin-right: 5px;
 }
