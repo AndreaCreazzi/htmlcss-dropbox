@@ -611,6 +611,12 @@ body{
 .logo-img:hover{
     border: 5px solid black;
     cursor: pointer;
+    opacity: 0.8;
+}
+
+.logo-middle-container:hover{
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
 }
 
 /* ? download drop */
