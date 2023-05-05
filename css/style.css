@@ -47,6 +47,7 @@ body{
 }
 
 .nav-search-right{
+    height: 80px;
    justify-content: end;
 }
 
@@ -234,7 +235,6 @@ body{
 /* ! header */
 
 .navbar{
-    height: 70px;
     width: 100%;
     background-color: white;
     position: fixed;
@@ -245,12 +245,18 @@ body{
 
 .flex .nav-left{
     flex-basis: 50%;
-    height: 70px;
 }
 
 .flex .nav-right{
     flex-basis: 50%;
-    height: 70px;
+}
+
+.nav-search-left li:hover{
+    border-bottom: 5px solid black;
+}
+
+.nav-search-right li:hover{
+    border-bottom: 5px solid black;
 }
 
 .free-trial{
