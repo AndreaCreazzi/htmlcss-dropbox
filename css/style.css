@@ -29,6 +29,17 @@ body{
     display: flex;
 }
 
+/* ! header */
+
+.navbar{
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
 .logo-drop{
     height: 45px;
     padding-top: 20px;
@@ -69,6 +80,27 @@ body{
     color: white;
 }
 
+.flex .nav-left{
+    flex-basis: 50%;
+}
+
+.flex .nav-right{
+    flex-basis: 50%;
+}
+
+.nav-search-left li:hover{
+    border-bottom: 5px solid black;
+}
+
+.nav-search-right li:hover{
+    border-bottom: 5px solid black;
+}
+
+.free-trial{
+    height: 650px;
+    background-color: #b4d0e7;
+}
+
 .trial-title{
     font-size: 60px;
     padding-top: 90px;
@@ -97,6 +129,59 @@ body{
 .trial-left i{
     margin-top: 60px;
     font-size: 40px;
+}
+
+.trial-row-above{
+    justify-content: center;
+}
+
+.trial-row-above .trial-center{
+    flex-basis: 80%;
+    height: 300px;
+}
+
+.trial-row-below{
+    justify-content: center;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+.trial-row-below .trial-left{
+    flex-basis: 30%;
+    height: 330px;
+}
+
+.trial-row-below .trial-right{
+    flex-basis: 50%;
+}
+
+/* ! main */
+
+.business-plans{
+    height: 1300px;
+}
+
+.business-row-above{
+    justify-content: flex-start;
+}
+
+.business-row-above .business-center{
+    flex-basis: 70%;
+    height: 300px;
+    margin-top: 30px;
+}
+
+.business-row-below{
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.business-row-below .business-left,
+.business-row-below .business-middle,
+.business-row-below .business-right{
+    flex-basis: 30%;
+    border: 1px solid lightgray;
+    height: 900px;
 }
 
 .business-center h2{
@@ -199,6 +284,23 @@ body{
     margin-top: 30px;    
 }
 
+/* ? enterprise */
+
+.enterprise-contact{
+    height: 400px;
+}
+
+.enterprise-row{
+    justify-content: center;
+}
+
+.enterprise-row .enterprise-center{
+    flex-basis: 100%;
+    border: 1px solid lightgray;
+    height: 250px;
+    margin-top: 40px;
+}
+
 .enterprise-center .fa-building{
     margin-top: 15px;
     margin-left: 405px;
@@ -232,115 +334,6 @@ body{
     color: gray;
 }
 
-/* ! header */
-
-.navbar{
-    width: 100%;
-    background-color: white;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 1;
-}
-
-.flex .nav-left{
-    flex-basis: 50%;
-}
-
-.flex .nav-right{
-    flex-basis: 50%;
-}
-
-.nav-search-left li:hover{
-    border-bottom: 5px solid black;
-}
-
-.nav-search-right li:hover{
-    border-bottom: 5px solid black;
-}
-
-.free-trial{
-    height: 650px;
-    background-color: #b4d0e7;
-}
-
-/* ? trial above */
-
-.trial-row-above{
-    justify-content: center;
-}
-
-.trial-row-above .trial-center{
-    flex-basis: 80%;
-    height: 300px;
-}
-
-/* ? trial below */
-
-.trial-row-below{
-    justify-content: center;
-    gap: 5px;
-    margin-top: 10px;
-}
-
-.trial-row-below .trial-left{
-    flex-basis: 30%;
-    height: 330px;
-}
-
-.trial-row-below .trial-right{
-    flex-basis: 50%;
-}
-
-/* ! main */
-
-.business-plans{
-    height: 1300px;
-}
-
-/* ? business above */
-
-.business-row-above{
-    justify-content: flex-start;
-}
-
-.business-row-above .business-center{
-    flex-basis: 70%;
-    height: 300px;
-    margin-top: 30px;
-}
-
-/* ? business below */
-
-.business-row-below{
-    justify-content: space-between;
-    margin-top: 20px;
-}
-
-.business-row-below .business-left,
-.business-row-below .business-middle,
-.business-row-below .business-right{
-    flex-basis: 30%;
-    border: 1px solid lightgray;
-    height: 900px;
-}
-
-/* ? enterprise */
-
-.enterprise-contact{
-    height: 400px;
-}
-
-.enterprise-row{
-    justify-content: center;
-}
-
-.enterprise-row .enterprise-center{
-    flex-basis: 100%;
-    border: 1px solid lightgray;
-    height: 250px;
-    margin-top: 40px;
-}
 
 /* ? partners find */
 
