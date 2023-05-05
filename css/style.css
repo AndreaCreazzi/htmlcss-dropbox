@@ -96,6 +96,10 @@ body{
     border-bottom: 5px solid black;
 }
 
+.nav-search-right .start:hover{
+    opacity: 0.5;
+}
+
 .free-trial{
     height: 650px;
     background-color: #b4d0e7;
@@ -153,6 +157,10 @@ body{
 
 .trial-row-below .trial-right{
     flex-basis: 50%;
+}
+
+.trial-left .trial-link:hover{
+    opacity: 0.5;
 }
 
 /* ! main */
@@ -284,6 +292,10 @@ body{
     margin-top: 30px;    
 }
 
+.business-content .try-link:hover{
+    opacity: 0.5;
+}
+
 /* ? enterprise */
 
 .enterprise-contact{
@@ -334,6 +346,9 @@ body{
     color: gray;
 }
 
+.enterprise-center a:hover{
+    opacity: 0.5;
+}
 
 /* ? partners find */
 
@@ -386,6 +401,10 @@ body{
 .partners-find h1{
     margin-top: 60px;
     font-size: 35px;
+}
+
+.find-right a:hover{
+    opacity: 0.5;
 }
 
 /* ? drop operation */
@@ -573,15 +592,11 @@ body{
     background-color: yellow;
 }
 
-/* ? logos middle */
-
 .logo-row .logo-middle-container{
     flex-basis: 50%;
     height: 400px;
     background-color: #f5f5f5;
 }
-
-/* ? logos right */
 
 .logo-row .logo-right-container{
     flex-basis: 50%;
@@ -639,6 +654,10 @@ body{
     background-color: white;
     font-size: small;
     text-align: center;
+}
+
+.drop-link a:hover{
+    opacity: 0.5;
 }
 
 /* ? FAQ */
