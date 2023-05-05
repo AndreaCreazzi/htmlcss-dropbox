@@ -490,28 +490,28 @@ body{
 
 .logo-left-container .designit{
     margin: 73px 59px;
-    filter: invert();
+    filter: invert(1);
     max-height: 50px;
     max-width: 100%;
 }
 
 .logo-left-container .arizona{
     margin: 50px 72px;
-    filter: invert();
+    filter: invert(1);
     max-height: 100px;
     max-width: 100%;
 }
 
 .logo-left-container .florida{
     margin: 82px 40px;
-    filter: invert();
+    filter: invert(1);
     max-height: 100px;
     max-width: 100%;
 }
 
 .logo-left-container .topps{
     margin: 63px 57px;
-    filter: invert();
+    filter: invert(1);
     max-height: 75px;
     max-width: 100%;
 }
