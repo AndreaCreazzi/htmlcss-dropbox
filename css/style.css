@@ -29,6 +29,22 @@ body{
     display: flex;
 }
 
+.j-center{
+    justify-content: center;
+}
+
+.j-start{
+    justify-content: flex-start;
+}
+
+.j-end{
+    justify-content: flex-end;
+}
+
+.j-between{
+    justify-content: space-between;
+}
+
 /* ! header */
 
 .navbar{
@@ -61,7 +77,6 @@ body{
 
 .nav-search-right{
     height: 80px;
-   justify-content: end;
 }
 
 .nav-search-right a{
@@ -137,17 +152,12 @@ body{
     font-size: 40px;
 }
 
-.trial-row-above{
-    justify-content: center;
-}
-
 .trial-row-above .trial-center{
     flex-basis: 80%;
     height: 300px;
 }
 
 .trial-row-below{
-    justify-content: center;
     gap: 5px;
     margin-top: 10px;
 }
@@ -171,10 +181,6 @@ body{
     height: 1300px;
 }
 
-.business-row-above{
-    justify-content: flex-start;
-}
-
 .business-row-above .business-center{
     flex-basis: 70%;
     height: 300px;
@@ -182,7 +188,6 @@ body{
 }
 
 .business-row-below{
-    justify-content: space-between;
     margin-top: 20px;
 }
 
@@ -305,10 +310,6 @@ body{
     height: 400px;
 }
 
-.enterprise-row{
-    justify-content: center;
-}
-
 .enterprise-row .enterprise-center{
     flex-basis: 100%;
     border: 1px solid lightgray;
@@ -357,10 +358,6 @@ body{
 
 .partners-find{
     height: 700px;
-}
-
-.partners-row{
-    justify-content: center;
 }
 
 .partners-row .find-left{
@@ -417,7 +414,6 @@ body{
 }
 
 .operation-row{
-    justify-content: space-between;
     flex-wrap: wrap;
 }
 
@@ -449,10 +445,6 @@ body{
     height: 400px;
 }
 
-.info-row{
-    justify-content: flex-start;
-}
-
 .info-row .info-center{
     flex-basis: 100%;
     height: 200px;
@@ -474,10 +466,6 @@ body{
 
 .partner-selection{
     height: 400px;
-}
-
-.logo-row{
-    justify-content: flex-start;
 }
 
 .logo-row .logo-left-container{
@@ -627,10 +615,6 @@ body{
     background-color: #b4d0e7;
 }
 
-.download-row{
-    justify-content: center;
-}
-
 .download-row .drop-try{
     flex-basis: 75%;
     height: 300px;
@@ -649,7 +633,6 @@ body{
 
 .drop-try .drop-link{
     flex-basis: 50%;
-    justify-content: end;
     padding: 132px 38px;
 }
 
@@ -670,10 +653,6 @@ body{
 
 .faq-container{
     height: 600px;
-}
-
-.faq-row{
-    justify-content: center;
 }
 
 .faq-row .question{
